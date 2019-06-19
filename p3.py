@@ -1,5 +1,5 @@
 """
-3.- Escribe una función que cuente el número de vocales en una cadena dad
+3.- Escribe una función que cuente el número de vocales en una cadena dada
 """
 # Defninición de la función
 def vocalcount(cadena):

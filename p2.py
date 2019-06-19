@@ -5,7 +5,7 @@ está duplicado dentro de la lista.
 Ejemplo, para la lista [1, 1, 3, 3, 4, 5, 5, 6, 6, 7, 7], el programa devuelve 4.
 """
 
-# Definiendo la función
+# DEFINICIÓN DE FUNCIONES
 
 def findnotrepeat(inplist1):
     i = 0
@@ -20,10 +20,17 @@ def findnotrepeat(inplist1):
 
     return "Todos tienen un par dentro de la lista"
 
-# Prueba de la función
+# PRUEBAS DE LA FUNCIÓN
+testlist1 = [1, 1, 3, 3, 4, 5, 5, 6, 6, 7, 7]
+unrepited = findnotrepeat(testlist1)
+print("El número sin repetir es: ",unrepited)
 
-testlist = (1, 3, 3, 4, 4, 5, 5)
-unrepited = findnotrepeat(testlist)
+testlist2 = [1, 1, 2, 2, 3, 3, 4, 4]
+unrepited = findnotrepeat(testlist2)
+print("El número sin repetir es: ",unrepited)
+
+testlist3 = [1, 2, 2, 3, 3]
+unrepited = findnotrepeat(testlist3)
 print("El número sin repetir es: ",unrepited)
 
 
