@@ -14,11 +14,8 @@ def sortlist(listinp):
     
     # Se ordena y se hace una copia de la lista
     ocount = count.copy()
-    print
     count.sort()
     olistinp = listinp.copy()
-    print(ocount)
-    print(count)
 
     # Se reordena según la lista de referencia generada
     for x in range( len(ocount) ):
