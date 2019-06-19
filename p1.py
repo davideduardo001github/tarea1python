@@ -16,7 +16,7 @@ def multiplo(inp1,inp2):
 
 # Prueba de la función
 
-inp1 = int(input("Escribe el primer número: "))
-inp2 = int(input("Escribe el segundo número: "))
+inp1 = float(input("Escribe el primer número: "))
+inp2 = float(input("Escribe el segundo número: "))
 out1 = multiplo(inp1,inp2)
 print("El número {0} es múltiplo de {1}: {2}".format(inp1,inp2,out1))

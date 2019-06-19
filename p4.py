@@ -36,8 +36,10 @@ def summatrix(a,b):
 # PRUEBA DEL MÉTODO
 if __name__ == '__main__':
     print("Ingresa la matriz A")
-    mat1 = genmatrix(2,2)
+    mat1 = genmatrix(3,3)
+    printmatrix(mat1)
     print("Ingresa la matriz B")
-    mat2 = genmatrix(2,2)
-    print("La suma de las matrices es: ")
+    mat2 = genmatrix(3,3)
+    printmatrix(mat2)
+    print("La suma de las matrices A+B es: ")
     printmatrix(summatrix(mat1,mat2))
