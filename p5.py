@@ -15,7 +15,7 @@ def sortlist(listinp):
     # Se ordena y se hace una copia de la lista
     ocount = count.copy()
     print
-    count.sort(reverse = True)
+    count.sort()
     olistinp = listinp.copy()
     print(ocount)
     print(count)
